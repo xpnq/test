@@ -1,0 +1,12 @@
+import matplotlib.pyplot as plt
+import numpy as np
+plt.clf()
+def show_map():
+
+    xpoints = np.array([1, 8])
+    ypoints = np.array([3, 10])
+    
+    plt.plot(xpoints, ypoints)
+
+    display(plt, target="plot", append = False)
+show_map()
